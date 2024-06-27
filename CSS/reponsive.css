@@ -1,0 +1,427 @@
+/* ---------------------------REPONSIVE--------------------------- */
+
+/* Cho iPad */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header {
+        height: 59px;
+    }
+
+    #nav li a {
+        padding: 0 10px;
+        line-height: 50px;
+    }
+
+    #nav .logo {
+        padding-left: 10px;
+    }
+
+    /* img-button */
+    .img-bt-content {
+        padding: 15px;
+    }
+    .img-bt-content h3 {
+        font-size: 30px;
+    }
+    .img-bt-content h4 {
+        font-size: 14px;
+    }
+
+    .img-bt-icon{
+        position: absolute;
+        top: 70%;
+        left: 4%;
+        transform: translate(0%, -50%);
+        padding-top: 130px;
+        color: aliceblue;
+        width: 100px;
+    }
+
+    .image-button .img-bt{
+        display: block;
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+        border: none;
+    }
+
+/* ------------------------------image-view-design------------------------ */
+    .img-view, .img-view-content {
+        width: 50%;
+    }
+
+    .img-view-content{
+        margin-top: 80px;
+    }
+
+    .img-view-content p{
+        padding: 10px 20px 10px 0;
+    }
+
+    .img-view-content {
+        padding-top: 40px;
+    }
+
+    .bt-view {
+        font-size: 16px;
+    }
+
+    /* ----------------------------the team------------------------------ */
+    .theteam-img-content p{
+        margin-right: 1px;
+    }
+    .theteam-img-content button{
+        width: 89%;
+    }
+
+    .theteam-img{
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .theteam-img-content{
+        flex: 1 1 45%;
+        max-width: 50%
+    }
+
+    /* our - skill */
+    .our-skill-content{
+        width: 50%;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    /* ------pricing------------------- */
+    .content-prc-bt button{
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* ------------------------map--------------------------- */
+    .contact-map img{
+        padding-right: 20px;
+    }
+}
+
+/*--------- Cho điện thoại di động----------- */
+@media (max-width: 767px) {
+    #nav {
+        display: none;
+        flex-direction: column-reverse;
+        width: 200px;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    #nav li {
+        margin: 0;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+
+    #nav li a {
+        line-height: 40px;
+        padding: 2px 10px 3px 10px;
+    }
+    #menu-icon {
+        display: block;
+    }
+
+    /* --------------------img button---------------------- */
+    #image-button {
+        padding: 25% 10%;
+    }
+
+    .img-bt{
+        width: 160px;
+        height: 30px;
+        font-size: 12px;
+        padding: 2px;
+        transform: translate(0%, -50%);
+    }
+
+    .img-bt-content{
+        top: 50%;
+        left: 4%;
+        transform: translate(0%, -50%);
+    }
+
+    .img-bt-content h3 {
+        font-size: 18px;
+    }
+
+    .img-bt-content h4 {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .img-bt-icon {
+        transform: translate(0%, -75%);
+        left: 4%;
+    }
+
+    .img-bt-icon i {
+        font-size: 15px;
+    }
+
+    /* -----------------about-------------------------- */
+    #content{
+        margin: 0;
+    }
+    #content h2{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 21px;
+    }
+
+    .containter-icon{
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    #content p {
+        padding-top: 10px;
+        font-size: 14px; /* Điều chỉnh kích thước font đoạn văn trên mobile */
+    }
+
+    .content-icon {
+        flex: 1 1 45%;
+        width: 50%; /* Chuyển sang chiều rộng đầy đủ trên mobile */
+        margin-top: 10px;
+    }
+
+    .content-icon i {
+        font-size: 32px; /* Điều chỉnh kích thước icon trên mobile */
+    }
+
+    .content-icon .content-icon1 {
+        text-align: left !important;
+        padding-left: 2px;
+        font-size: 14px; /* Điều chỉnh kích thước font văn bản trên mobile */
+    }
+
+    /* --------------img-view-content-------- */
+    #image-view-design {
+        margin-top: 20px;
+        flex-direction: column; /* Chuyển sang định hướng dọc */
+        align-items: center; /* Căn giữa theo chiều ngang */
+    }
+
+    .img-view,
+    .img-view-content {
+        text-align: center;
+        width: 100%; /* Chiếm toàn bộ chiều rộng */
+        padding: 20px;
+    }
+
+    .img-view-content p{
+        text-align: center;
+        padding: 0 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .img-view-content {
+        padding-top: 20px; /* Tăng khoảng cách phía trên */
+        padding-bottom: 10px; /* Giảm khoảng cách phía dưới */
+    }
+
+    .img-view img {
+        padding: 0; /* Xóa padding trái và phải */
+        margin-bottom: 20px; /* Thêm khoảng cách phía dưới */
+    }
+
+    .bt-view {
+        font-size: 18px; /* Giảm kích thước font cho nút */
+    }
+
+    /* ------------The team------------- */
+    .theteam-img-content {
+        flex: 1 1 100%; /* Chia cột 100% chiều rộng khi trên thiết bị di động */
+        max-width: calc(100% - 20px); /* Khoảng cách giữa các thành viên */
+    }
+
+    #theteam {
+        margin: 10px 10px 30px 10px;
+        padding-top: 10px;
+    }
+    .theteam-content h2{
+        padding-bottom: 2px;
+    }
+    .theteam-content p{
+        padding-bottom: 10px;
+    }
+
+    /* -----------br-thông số---------- */
+    #br-thongso {
+        margin-top: 2cqw;
+        height: 60px;
+    }
+    
+    .br-content{
+        text-align: center;
+        flex: 1;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center; /* căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        padding: 0;
+    }
+    
+    .br-content h3 {
+        font-size: 14px;
+    }
+    .br-content p{
+        font-size: 12px;
+    }
+
+    /* ------------our work------------ */
+    #out-work {
+        margin: 10px;
+        padding-top: 10px;
+    }
+    
+    .out-work-content{
+        text-align: center;
+    }
+    
+    .out-work-content h3{
+        padding-bottom: 5px;
+    }
+    
+    .out-work-content p{
+        padding-bottom: 20px;
+    }
+    
+    .out-work-img img{
+        flex: 1 1 33.33%;
+        width: calc(33.33% - 10px); /* 25% chiều rộng của container và 10px là margin giữa ảnh */
+        margin-bottom: 2px;
+    }
+
+    /* ------------Our skill------- */
+    #our-skill {
+        margin-top: 30px;
+        flex-direction: column; /* Chuyển sang định hướng dọc khi trên thiết bị di động */
+        align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+        height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung */
+    }
+
+    .our-skill-content, .skill {
+        width: 100%; /* Chia cột 100% chiều rộng khi trên thiết bị di động */
+        padding: 10px 10px; /* Điều chỉnh padding để giữ khoảng cách hợp lý */
+    }
+
+    .our-skill-content h3 {
+        font-size: 24px; /* Giảm kích thước font cho tiêu đề trên màn hình nhỏ hơn */
+        text-align: center;
+        margin: 10px 0 2px 0;
+    }
+
+    .our-skill-content p{
+        padding: 2px 0;
+    }
+
+    .skill {
+        padding: 0;
+    }
+
+    .our-skill-content p {
+        margin-right: 0; /* Loại bỏ margin-right trên màn hình nhỏ hơn */
+    }
+
+    .skill-item i {
+        font-size: 16px; /* Giảm kích thước icon cho phù hợp với màn hình nhỏ hơn */
+        margin-right: 0;
+    }
+
+    .progress-bar {
+        line-height: 30px; /* Đảm bảo văn bản nằm giữa thanh progress */
+    }
+
+    /* --------------pricing--------------- */
+
+    #pricing {
+        padding-bottom: 30px;
+        margin-top: 30px;
+        height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung */
+    }
+
+    .pricing-money {
+        flex-direction: column; /* Chuyển sang định hướng dọc khi trên thiết bị di động */
+        align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+        margin-top: 30px; /* Giảm margin-top để giữ khoảng cách phù hợp */
+    }
+
+    .pricing-content{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .pricing-money-content,
+    .pricing-money-content1 {
+        width: 90%; /* Đặt chiều rộng 80% để phù hợp trên màn hình nhỏ */
+        margin: 10px 0; /* Điều chỉnh margin để giữ khoảng cách hợp lý giữa các phần tử */
+    }
+
+    .content-prc,
+    .content-prc1 {
+        padding: 20px; /* Giảm padding cho phù hợp trên màn hình nhỏ */
+    }
+
+    .pricing-money-content p,
+    .pricing-money-content1 p {
+        padding: 8px; /* Giảm padding cho phù hợp trên màn hình nhỏ */
+    }
+
+    .pricing-money-content button,
+    .pricing-money-content1 button {
+        padding: 8px; /* Giảm padding cho nút cho phù hợp trên màn hình nhỏ */
+        width: 80px; /* Giảm chiều rộng cho nút cho phù hợp trên màn hình nhỏ */
+        font-size: 16px;
+    }
+
+    .content-prc-bt {
+        padding: 15px; /* Giảm padding cho phù hợp trên màn hình nhỏ */
+    }
+
+    /* ----------------contact-------------- */
+    #contact{
+        padding-top: 20px;
+    }
+    .contact-content h3{
+        font-size: 20px;
+        padding-bottom: 2px;
+    }
+    .contact-content p{
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .contact-support{
+        padding-left: 10px;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .contact-input-bt{
+        padding: 10px;
+    }
+    .contact-input-bt button{
+        width: 100%;
+    }
+
+    .contact-map{
+        margin-top: 20px;
+    }
+    .contact-map img{
+        padding: 0 10px 0 10px;
+    }
+
+    /* ----footer------ */
+    #footer {
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+}
